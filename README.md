@@ -253,7 +253,7 @@
 
 #### 安装教程
 1.  在navicat中运行数据库脚本生成对应的数据库表
-2.  在src/main/resources/application.yml文件里更改数据库名称或数据库密码
+2.  在src/main/resources/application.yml文件里更改数据库(Redis/Mysql)名称或数据库密码
 3.  在pom.xml文件的父目录运行 mvn clean spring-boot:run 启动后端
 4.  启动前端 你可以在package.json的父目录执行下如命令 或者 直接在IDEA里点击也可运行 值得一提的是后两命令分别是打包命令和检查修复命令
 
@@ -273,6 +273,7 @@ npm run lint
 
 ![](./Images/后端启动_1.png)
 ![](./Images/后端启动_2.png)
+![](./Images/前端启动_1.png)
 ![](./Images/前端启动_2.png)
 ![](./Images/前端启动_3.png)
 
@@ -283,3 +284,7 @@ npm run lint
 
 #### 截图
 
+![](./Images/dtm_1.png)
+![](./Images/dtm_2.png)
+![](./Images/dtm_3.png)
+![](./Images/dtm_4.png)
